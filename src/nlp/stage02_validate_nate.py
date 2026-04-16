@@ -116,4 +116,7 @@ def run_validate(
     LOG.info("Sink: validated BeautifulSoup object")
 
     # Return the validated BeautifulSoup object for use in the next stage.
+    print(
+        soup.prettify()[:500]
+    )  # Print the first 500 characters of the validated HTML structure for inspection.
     return soup

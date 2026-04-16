@@ -199,6 +199,9 @@ def _clean_text(text: str, nlp_model: spacy.language.Language) -> str:
         [token.text for token in doc if not token.is_stop and not token.is_space]
     )
 
+    print(
+        f"Cleaned text: {text[:100]}..."
+    )  # Print the first 100 characters of the cleaned text for inspection.
     return text
 
 
