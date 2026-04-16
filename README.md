@@ -1,5 +1,5 @@
 Author: Nate S
-
+![alt text](image.png)
 # nlp-06-nlp-pipeline
 
 <!--additional badges are common. In your custom copy of the project, change `denisecase` to your GitHub account -->
